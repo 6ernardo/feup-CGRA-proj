@@ -47,7 +47,7 @@ export class MyGrassPatch extends CGFobject {
 
     display() {
         
-        this.scene.setActiveShader(this.grassShader);
+        //this.scene.setActiveShader(this.grassShader);
         for(let i=0; i<50; i++){
             for(let j=0; j<50; j++){
                 this.scene.pushMatrix();
@@ -59,7 +59,7 @@ export class MyGrassPatch extends CGFobject {
                 this.scene.popMatrix();
             }
         }
-        this.scene.setActiveShader(this.scene.defaultShader);
+        //this.scene.setActiveShader(this.scene.defaultShader);
     }
 	
 }
