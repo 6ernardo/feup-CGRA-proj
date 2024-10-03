@@ -38,16 +38,16 @@ export class MyGrassPatch extends CGFobject {
 
         this.text = new CGFtexture(this.scene, "src/images/grassBlade.png");
 
-        //this.grassShader = new CGFshader(this.scene.gl, "src/shaders/grass.vert", "src/shaders/grass.frag");
+        this.grassShader = new CGFshader(this.scene.gl, "src/shaders/grass.vert", "src/shaders/grass.frag");
 	}
 
     update(t){
-        //this.grassShader.setUniformsValues({ timeFactor: t / 100 % 100 })
+        this.grassShader.setUniformsValues({ timeFactor: t / 100 % 100 })
     }
 
     display() {
         
-        //this.scene.setActiveShader(this.grassShader);
+        this.scene.setActiveShader(this.grassShader);
         for(let i=0; i<50; i++){
             for(let j=0; j<50; j++){
                 this.scene.pushMatrix();
@@ -59,7 +59,7 @@ export class MyGrassPatch extends CGFobject {
                 this.scene.popMatrix();
             }
         }
-        //this.scene.setActiveShader(this.scene.defaultShader);
+        this.scene.setActiveShader(this.scene.defaultShader);
     }
 	
 }
