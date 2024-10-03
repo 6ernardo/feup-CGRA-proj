@@ -16,28 +16,28 @@ Repository for the Computer Graphics project.
 
 ### 1. Sky-Sphere
 
-![Panorama](images/screenshots/project-t01g04-1.png)
+![Panorama](src/images/screenshots/project-t01g04-1.png)
 
 ### 2. Flowers
 
-![Garden](images/screenshots/project-t01g04-2.png)
+![Garden](src/images/screenshots/project-t01g04-2.png)
 
 
 ### 3. Rocks and Boulders
 
-![Rock](images/screenshots/project-t01g04-3.1.png)
-![Rock Pile](images/screenshots/project-t01g04-3.2.png)
+![Rock](src/images/screenshots/project-t01g04-3.1.png)
+![Rock Pile](src/images/screenshots/project-t01g04-3.2.png)
 
 ### 4. Bee
 
-![Bee](images/screenshots/project-t01g04-4.png)
-![Bee and Sliders](images/screenshots/project-t01g04-5.png)
+![Bee](src/images/screenshots/project-t01g04-4.png)
+![Bee and Sliders](src/images/screenshots/project-t01g04-5.png)
 
 ### 5. Pollen and Hive
 
-![Bee holding pollen heading to Hive](images/screenshots/project-t01g04-6.png)
+![Bee holding pollen heading to Hive](src/images/screenshots/project-t01g04-6.png)
 
 ### 6. Shaders and animation (grass)
 
-![Waving grass](images/screenshots/project-t01g04-7.png)
+![Waving grass](src/images/screenshots/project-t01g04-7.png)
 

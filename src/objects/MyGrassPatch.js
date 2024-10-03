@@ -38,11 +38,11 @@ export class MyGrassPatch extends CGFobject {
 
         this.text = new CGFtexture(this.scene, "src/images/grassBlade.png");
 
-        this.grassShader = new CGFshader(this.scene.gl, "src/shaders/grass.vert", "src/shaders/grass.frag");
+        //this.grassShader = new CGFshader(this.scene.gl, "src/shaders/grass.vert", "src/shaders/grass.frag");
 	}
 
     update(t){
-        this.grassShader.setUniformsValues({ timeFactor: t / 100 % 100 })
+        //this.grassShader.setUniformsValues({ timeFactor: t / 100 % 100 })
     }
 
     display() {
